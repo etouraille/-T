@@ -1,23 +1,17 @@
 var express =require('express'),
     bodyParser=require('body-parser'),
-    oauthserver = require('node-oauth-server'),
+    oauthserver = require('oauthio'),
     tpl = require('ejs');
 
 var app = express();
 
-app.oauth = oauthserver({
-  model: {}, // See below for specification
-  grants: ['password'],
-  debug: true
+app.set('view engine', 'ejs');
+
+app.get('/', function (req, res) {
+  var publicKey = 12345;
+  res.render('index', { keypub : publicKey} );
 });
 
-app.all('/oauth/token', app.oauth.grant());
 
-app.get('/', app.oauth.authorise(), function (req, res) {
-  res.send('Secret area');
-  res.render('<p>auth client</p>');
-});
-
-app.use(app.oauth.errorHandler());
 
 app.listen(5000);
