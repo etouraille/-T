@@ -4,7 +4,7 @@ La Paillasse a initié un projet autour du biomimétisme et du gaspillage alimen
 Parallèlement à cela, je refléchissais au projet d'une application permettant de localiser les contrôleurs dans le metro.  
 De cette réflexion est née un format d'échange #@T qui permet de localiser une resource dans l'espace et le temps.  
 D'une période de vache maigre et le constat que nous gaspillons énormément de ressources alimentaires, est venue l'idée de localiser les resources gaspillées pour ne pas qu'elles se perdent.  
-Parallèlement à cela, des initiatives font leur chemin et commencent à gagner en visibilité : les café suspendus, les gars-pilleurs, une communauté de vegan qui arpentent sûrement les rues de Lyon, les livres partagés, les frigos partagés, les objets partagés, freepress, etc, il s'agit bien souvent de resources mises a disposition par des personnes qui ont le souci de ne pas les laisser périr, ou l'envie de les partager. 
+Parallèlement à cela, des initiatives font leur chemin et commencent à gagner en visibilité : les café suspendus, les gars-pilleurs, une communauté de fregan qui arpentent sûrement les rues de Lyon, les livres partagés, les frigos partagés, les objets partagés, freepress, etc, il s'agit bien souvent de resources mises a disposition par des personnes qui ont le souci de ne pas les laisser périr, ou l'envie de les partager. 
 
 #le projet d'application 
 
